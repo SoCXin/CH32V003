@@ -1,31 +1,28 @@
-﻿# [RK1808](https://github.com/mcuyun/RK1808) 
+﻿# [CH32V003](https://doc.soc.xin/wch/CH32V003)
 
-[![sites](mcuyun/mcuyun.png)](http://www.mcuyun.com)
+* [WCH](http://www.wch.cn/)：[RISC-V2A](https://doc.soc.xin/wch/riscv)
+* [L1R1](https://github.com/SoCXin/Level)：48 MHz
 
-#### 归属：[cortex A35系列](https://github.com/mcuyun/CA35)
-#### [关于悠云](https://github.com/mcuyun)可访问 www.mcuyun.com
+## [简介](https://doc.soc.xin/wch/CH32V003)
 
-## [简介](https://github.com/mcuyun/RK1808/wiki)
-
-瑞芯微最新A35低功耗处理器，集成NPU算力3.0TPOS
-
-### [组成](mcuyun/)
+[CH32V003](https://www.wch.cn/products/CH32V003.html) 系列是基于青稞RISC-V2A内核设计的工业级通用微控制器，支持48MHz系统主频，具有宽压、单线调试、低功耗、超小封装等特点。CH32V003系列内置1组DMA控制器、1组10位模数转换ADC、1组运放比较器、多组定时器以及标准通讯接口USART、IIC、SPI等。
 
 
-#### [linux系统](https://github.com/rockchip-linux/kernel.git)
+#### 关键特性
 
-基于rock-chip官方提供的系统工程编译
+* 青稞V2A，最高48MHz主频
+* 2KB SRAM，16KB Flash
+* 1个USART接口、1组IIC接口、1组SPI接口
+* 封装形式TSSOP20、QFN20、SOP16、SOP8
 
-#### [docs](docs/)
+### [收录资源](https://github.com/SoCXin/CH32V003)
 
-包括芯片相关资料和设计参考
- 
+* [参考资源](src/)
+* [参考文档](docs/)
+* [参考工程](project/)
 
+### [选型建议](https://github.com/SoCXin)
 
+[CH32V003](https://github.com/SoCXin/CH32V003) 是标准的xxx003系列替换，用于最低端控制器
 
----
-
-###  [悠云，为嵌入式](http://www.mcuyun.com)   
-###  qitas@qitas.cn
-
-
+### [www.SoC.xin](http://www.SoC.Xin)

@@ -1,0 +1,54 @@
+{
+    "type":"MCU",
+    "name":"CH32V003",
+    "title": "WCH CH32V003",
+    "description":"WCH RISC-V2A CH32V003 MCU",
+    "version":"1.0.0",
+    "Core": {
+        "num": 1,
+        "type":"RISC-V",
+        "Freq":[8,48],
+        "DMIPS": 40,
+        "CoreMark": 80
+    },
+    "manufacturer": {
+        "vendor":"WCH",
+        "homepage": "http://www.wch.cn/products/CH32V003.html"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/CH32V003.git"
+    },
+    "series":["CH32V003J4","CH32V003A4","CH32V003F4"],
+    "package":["TSSOP20","QFN20","SOP16","SOP8"],
+    "peripheral": ["TIM","ADC","USB","UART","SPI","LDO","PWM"],
+    "price":[1,2],
+    "PWR": {
+        "VDD": [2800,5000],
+        "Ivdd": 3.5,
+        "LDO": [5000,3300],
+        "rate": 1024
+    },
+    "PWM": {
+        "num": 2,
+        "resolution": 8,
+        "rate": 256
+    },
+    "EMC": {
+        "EFT": 2000,
+        "ESD": 4000
+    },
+    "upload": {
+        "ISP": true,
+        "IAP": true,
+        "SWD": true,
+        "speed": 115200
+    },
+    "keywords": [
+        "RISC-V",
+        "WCH",
+        "CH32V003",
+        "UART","I2C","SPI",
+        "3.3V","5.5V"
+    ]
+}
