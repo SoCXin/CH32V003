@@ -1,7 +1,7 @@
 ﻿# [CH32V003](https://doc.soc.xin/wch/CH32V003)
 
 * [WCH](http://www.wch.cn/)：[RISC-V2A](https://doc.soc.xin/wch/riscv)
-* [L1R1](https://github.com/SoCXin/Level)：48 MHz
+* [L1R1](https://github.com/SoCXin/Level)：48 MHz , [￥0.825 (QFN20)](https://item.szlcsc.com/6049934.html)
 
 ## [简介](https://doc.soc.xin/wch/CH32V003)
 
@@ -25,4 +25,6 @@
 
 [CH32V003](https://github.com/SoCXin/CH32V003) 是标准的xxx003系列替换，用于最低端控制器
 
-### [www.SoC.xin](http://www.SoC.Xin)
+相似性价比的产品还有：
+
+* [PY32F002A](https://github.com/SoCXin/PY32F002) 
