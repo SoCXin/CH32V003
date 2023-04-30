@@ -21,7 +21,7 @@
     },
     "series":["CH32V003J4","CH32V003A4","CH32V003F4"],
     "package":["TSSOP20","QFN20","SOP16","SOP8"],
-    "peripheral": ["TIM","ADC","USB","UART","SPI","LDO","PWM"],
+    "peripheral": ["TIM","ADC","UART","SPI","PWM"],
     "price":[1,2],
     "PWR": {
         "VDD": [2800,5000],
